@@ -1,7 +1,7 @@
 terraform {
   backend "s3" {
-    bucket = "mytodoappbucket"
+    bucket = "phoenix12345"
     key    = "eks/terraform.tfstate"
-    region = "us-east-2"
+    region = "ap-southeast-1"
   }
 }
